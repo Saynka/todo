@@ -1,10 +1,18 @@
-import React from 'react';
+
+import React, { useEffect, useState } from 'react';
 
 const TodoList = (props) => {
 
+  const [list, setList] = useState(props.list);
+
+  useEffect(() => {
+    setList(props.list);
+  }, [props.list]);
+
+
   return (
     <ul>
-      {props.list.map(item => (
+      {list.map(item => (
         <li
           className={`complete-${item.complete.toString()}`}
           key={item._id}
