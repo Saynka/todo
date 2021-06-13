@@ -1,3 +1,6 @@
+- https://github.com/briancodex/react-todo-app-v1/blob/master/src/App.js
+- https://www.youtube.com/watch?v=E1E08i2UJGI
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

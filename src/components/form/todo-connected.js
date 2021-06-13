@@ -1,14 +1,11 @@
-import React, { useEffect, useState } from 'react';
-// import Counter from './counter.js';
-// import CounterWithReducer from './CounterWithReucer.js';
-// import Person from './Person.js';
-// import ContactUs from './Contact';
-import TodoForm from './Form.js';
-import TodoList from './list.js';
+import TodoForm from './TodoForm';
+import Todo from './Todo';
+import axios from 'axios';
+import { useEffect } from 'react';
 
 import './todo.scss';
 
-const todoAPI = 'https://api-js401.herokuapp.com/api/v1/todo';
+const todoAPI = 'https://my-api-rest-auth.herokuapp.com/';
 
 
 function ToDo() {
@@ -55,6 +52,7 @@ function ToDo() {
         .catch(console.error);
     }
   };
+
 
   const _getTodoItems = () => {
     fetch(todoAPI, {

@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { LoginContext } from './context.js';
+import { LoginContext } from './Context.js';
 import { When } from 'react-if';
 
 function Auth(props) {
