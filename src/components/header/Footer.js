@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { SiteContext } from '../context/Site.js';
+import { SiteContext } from '../../context/Site.js';
 
 // This is FYI ... better to use a Function Component
 

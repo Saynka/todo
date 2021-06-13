@@ -1,4 +1,4 @@
-import Auth from './auth/Auth.js';
+import Auth from './Auth.js';
 
 function Content() {
 

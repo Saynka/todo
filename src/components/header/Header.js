@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
 import { useContext } from 'react';
-import { SiteContext } from '../context/Site.js';
-import './todo.scss';
+import { SiteContext } from '../../context/Site.js';
+import '../form/todo.scss';
 
 function Header(props) {
   const [list, setList] = useState(props.list);

@@ -1,19 +1,23 @@
 import React from 'react';
-
-
-import ToDo from './components/todo.js';
-import ThemeContext from './context/Theme.js';
-import SiteContext from './context/Site.js';
+import './App.scss';
+import TodoList from './components/form/TodoList.js';
+import LoginContext from './components/auth/Context.js';
+import Content from './components/auth/Content.js';
+import Login from './components/auth/Login.js';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <ThemeContext>
-      <SiteContext>
-        <ToDo />
-      </SiteContext>
-    </ThemeContext>
+    <>
+      <LoginContext>
+        <Login />
+        <Content />
+      </LoginContext>
+      <div className='todo-app'>
+        <TodoList />
+      </div>
+    </>
   );
 }
 
