@@ -1,3 +1,100 @@
+# LAB - class 34
+
+## Project: TODO app
+
+### Author: Kale Lesko
+
+### Links and Resources
+
+- [ci/cd](http://xyz.com) (GitHub Actions)
+- [back-end server url](http://xyz.com) (when applicable)
+- [front-end application](http://xyz.com) (when applicable)
+
+### Setup
+
+- .
+  ├── LICENSE
+  ├── README.md
+  ├── **tests**
+  │ ├── App.test.js
+  │ ├── Counter.test.js
+  │ └── setupTests.js
+  ├── package-lock.json
+  ├── package.json
+  ├── public
+  │ ├── favicon.ico
+  │ ├── index.html
+  │ ├── logo192.png
+  │ ├── logo512.png
+  │ ├── manifest.json
+  │ └── robots.txt
+  └── src
+  ├── App.js
+  ├── App.scss
+  ├── components
+  │ ├── auth
+  │ │ ├── Auth.js
+  │ │ ├── Content.js
+  │ │ ├── Context.js
+  │ │ └── Login.js
+  │ ├── form
+  │ │ ├── Todo.js
+  │ │ ├── TodoForm.js
+  │ │ ├── TodoList.js
+  │ │ ├── todo-connected.js
+  │ │ └── todo.scss
+  │ └── header
+  │ ├── Footer.js
+  │ └── Header.js
+  ├── context
+  │ ├── Site.js
+  │ └── Theme.js
+  ├── hooks
+  │ └── form.js
+  ├── index.js
+  └── reportWebVitals.js
+
+#### `.env` requirements (where applicable)
+
+- `"@testing-library/jest-dom": "^5.13.0",`
+- `"@testing-library/react": "^11.2.7",`
+- `"@testing-library/user-event": "^12.8.3",`
+- `"axios": "^0.21.1",`
+- `"axios-hooks": "^2.6.3",`
+- `"bootstrap": "^5.0.1",`
+- `"jest": "^26.6.0",`
+- `"jsonwebtoken": "^8.5.1",`
+- `"msw": "^0.29.0",`
+- `"node-sass": "^6.0.0",`
+- `"react": "^17.0.2",`
+- `"react-bootstrap": "^1.6.1",`
+- `"react-cookies": "^0.1.1",`
+- `"react-dom": "^17.0.2",`
+- `"react-icons": "^4.2.0",`
+- `"react-if": "^4.0.1",`
+- `"react-scripts": "4.0.3",`
+- `"sass": "^1.34.1",`
+- `"superagent": "^6.1.0",`
+- `"web-vitals": "^1.1.2"`
+
+#### How to initialize/run your application (where applicable)
+
+- `npm start`
+
+<!-- #### How to use your library (where applicable) -->
+
+#### Tests
+
+- How do you run tests?
+- Any tests of note?
+- Describe any tests that you did not complete, skipped, etc
+
+#### UML
+
+![UML Example](./reference/uml-1.png)
+
+#### refrences
+
 - https://github.com/briancodex/react-todo-app-v1/blob/master/src/App.js
 - https://www.youtube.com/watch?v=E1E08i2UJGI
 
