@@ -1,11 +1,10 @@
-import TodoForm from './TodoForm';
-import Todo from './Todo';
 import axios from 'axios';
 import { useEffect } from 'react';
+import React, { useState } from 'react';
 
 import './todo.scss';
 
-const todoAPI = 'https://my-api-rest-auth.herokuapp.com/';
+const todoAPI = 'https://api-js401.herokuapp.com/api/v1/todo';
 
 
 function ToDo() {

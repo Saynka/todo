@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
 import './App.scss';
 import TodoList from './components/form/TodoList.js';
 import LoginContext from './components/auth/Context.js';
@@ -14,9 +15,8 @@ function App() {
         <Login />
         <Content />
       </LoginContext>
-      <div className='todo-app'>
-        <TodoList />
-      </div>
+      <TodoList />
+
     </>
   );
 }

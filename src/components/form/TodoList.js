@@ -1,6 +1,7 @@
 
 import React, { useState } from 'react';
 import TodoForm from './TodoForm';
+import TodoForm2 from './TodoForm2';
 import Todo from './Todo';
 
 function TodoList() {
@@ -41,16 +42,23 @@ function TodoList() {
     setTodos(updatedTodos);
   };
 
+
+
   return (
     <>
-      <h1>To Do List Manager</h1>
-      <TodoForm onSubmit={addTodo} />
-      <Todo
-        todos={todos}
-        completeTodo={completeTodo}
-        removeTodo={removeTodo}
-        updateTodo={updateTodo}
-      />
+      <div className='todo-app'>
+        <h1>List Manager</h1>
+        <TodoForm onSubmit={addTodo} />
+      </div>
+      <div className='todo-app2'>
+        <h1>Tasks</h1>
+        <Todo
+          todos={todos}
+          completeTodo={completeTodo}
+          removeTodo={removeTodo}
+          updateTodo={updateTodo}
+        />
+      </div>
     </>
   );
 }
